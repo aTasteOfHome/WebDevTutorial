@@ -1,1 +1,50 @@
 # WebDevTutorial
+
+Objective: To help someone get started started on WebDev,
+
+- simple localhost server; let's do a bare bones node express
+    -  git clone, npm install, npm start, go to the url
+- index.js + index.html
+    - web page will say Hello, new developer!
+- Stub out a "Resume" in html + Mustache, and have index.js populate it with fake data
+    - optionally spend time going over html box model, css styling (porbably not too much; we'll go into more detail later)
+    - teach user about:
+        - using printlines, debugger
+        - variables, assignment, data types
+        - if/else, switch
+        - loops
+        - methods, functions
+            - stuff like .map, .find, etc.
+- Remove the fake data in index.js, and have it instead make calls to server for data
+    - have server make calls to a stubbed database
+    - user learns about callbacks/promises/event dispatching
+- User git clones another tutorial repository (for SQL stuff), but clones from a tag that has all the info already stubbed out
+    - stuff shows up on screen again!
+- Have the user create a new section for education that they edit directly on the page
+    - Introduce input fields on website, so user can update their resume from the webpage
+        - This makes POST requests, which does SQL inserts and updates
+        - User learns some basic SQL in the process
+    - User learns SQL select statements to get education info
+- Go ham on html css, introduce the idea of .scss and convert to that
+    - optionally introduce idea of react-redux
+- But anyone can update your code now! Introduce auth
+    - Introduce more and more security exploits that they will now have to code against
+        - SQL injection
+        - cross site scripting
+- Introduce tables, long running processes, and other things that are easier to deal with using data structures, various programming techniques
+    - queue
+    - stack
+    - set
+    - hashtable
+    - map
+    - recursion
+        - dynamic programming
+    - sorting
+    - OO
+        - classes
+        - inheritance
+    - functional programming
+        - passing around functions as parameters
+        - advantage of stateless stuff 
+- teach user about flexbox, css-grid, tables, etc.
+- Introduce react and redux; something that may address some of the growing pains the user may be encountering.

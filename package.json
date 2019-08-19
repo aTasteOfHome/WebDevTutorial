@@ -1,0 +1,22 @@
+{
+  "name": "webdevtutorial",
+  "version": "1.0.0",
+  "description": "tutorial repository to help people learn web development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aTasteOfHome/WebDevTutorial.git"
+  },
+  "author": "Andrew Tsai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aTasteOfHome/WebDevTutorial/issues"
+  },
+  "homepage": "https://github.com/aTasteOfHome/WebDevTutorial#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

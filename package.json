@@ -4,7 +4,8 @@
   "description": "tutorial repository to help people learn web development",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/aTasteOfHome/WebDevTutorial#readme",
   "dependencies": {
+    "ejs": "^2.7.1",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0"
   }
 }

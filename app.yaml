@@ -1,0 +1,21 @@
+runtime: nodejs10
+
+instance_class: F1
+
+env_variables:
+  BUCKET_NAME: "my-gcs-bucket"
+
+handlers:
+- url: /public/stylesheets
+  static_dir: /stylesheets
+- url: /public/images
+  static_dir: /images
+- url: /public/javascripts
+  static_dir: /javascripts
+- url: /views
+  static_dir: /views
+
+- url: /.*
+  secure: always
+  redirect_http_response_code: 301
+  script: auto
